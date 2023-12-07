@@ -1,7 +1,4 @@
 from Load import LoadFile
-from collections import namedtuple
-
-GameObject = namedtuple("GameObject", "num cubes")
 
 def main():
     input = LoadFile("Day2")
