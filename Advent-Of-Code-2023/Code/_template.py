@@ -1,7 +1,8 @@
 from Load import LoadFile
 
 def main():
-    input = LoadFile("Day1")
+    input = LoadFile("Test")
+    #input= LoadFile("Day")
     part1(input)
     part2(input)
 
